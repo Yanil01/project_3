@@ -1,0 +1,33 @@
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Adjust spacing between stars */
+}
+
+.star-rating .star {
+  color: #e2e8f0; /* Inactive star color */
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.star-rating .star.active {
+  color: #f6e05e; /* Active star color */
+}
+.footer {
+  background-color: #333; /* Example background color for the footer */
+  color: #fff; /* Text color for the footer */
+  padding: 20px; /* Padding around footer content */
+  text-align: center; /* Center-align text within the footer */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
