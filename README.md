@@ -1,3 +1,1 @@
-# React + Vite
-
 # star-rating 
